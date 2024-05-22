@@ -34,13 +34,13 @@ h3 {
   
   details summary {
     cursor: pointer;
-    background-color: #2095ae;
-    color: white;
+    background-color: #ffdd04;
+    color: grey;
     padding: 10px;
     border-radius: 5px;
     display: inline-block;
   }
   
   details summary:hover {
-    background-color: #2A629A;
+    background-color: #c7ac00;
   }
