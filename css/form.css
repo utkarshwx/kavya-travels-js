@@ -50,7 +50,7 @@ input {
 	right: 10%;
 	font-size: 1.75rem;
 	font-weight: 700;
-	color: #735400;
+	color: #FFA62F;
 	line-height: 1.222;
 	small {
 		display: block;
@@ -145,8 +145,8 @@ input {
 	color: #8597a3;
 	a {
 		display: block;
-		color: #ccb003;
-		text-decoration: none;
+		color: #FFA62F;
+		text-decoration: #FFA62F;
 	}
 }
 
