@@ -50,7 +50,7 @@ input {
 	right: 10%;
 	font-size: 1.75rem;
 	font-weight: 700;
-	color: #FFA62F;
+	color: #2095AE;
 	line-height: 1.222;
 	small {
 		display: block;
@@ -91,9 +91,9 @@ input {
 	padding: .25rem 0;
 	&:focus, &:valid {
 		outline: 0;
-		border-bottom-color: #ffdc04;
+		border-bottom-color: #2095AE;
 		&+.input-label {
-			color: #ffdc04;
+			color: #2095AE;
 			transform: translateY(-1.5rem);
 		}
 	}
@@ -115,7 +115,7 @@ input {
 	padding: .25rem 0;
 	&:focus, &:valid {
 		outline: 0;
-		border-bottom-color: #ffdc04;
+		border-bottom-color: #2095AE;
 	}
 }
 
@@ -129,7 +129,7 @@ input {
 	padding: 1em;
 	width: 100%;
 	font-weight: 500;
-	background-color: #ffdd04;
+	background-color: #2095AE;
 	border-radius: 6px;
 	color: #FFF;
 	border: 0;
@@ -145,8 +145,8 @@ input {
 	color: #8597a3;
 	a {
 		display: block;
-		color: #FFA62F;
-		text-decoration: #FFA62F;
+		color: #2095AE;
+		text-decoration: #2095AE;
 	}
 }
 

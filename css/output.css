@@ -472,7 +472,7 @@ video {
   --tw-ring-inset:  ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgba(184, 171, 0, 0.5);
+  --tw-ring-color: #2095AE;
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
@@ -522,7 +522,7 @@ video {
   --tw-ring-inset:  ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(184, 171, 0, 0.5);
+  --tw-ring-color: #2095AE;
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
@@ -1017,7 +1017,7 @@ video {
 
 .bg-color4 {
   --tw-bg-opacity: 1;
-  background-color: #FFA62F;
+  background-color: #2095AE;
 }
 
 .bg-color5 {
@@ -1273,7 +1273,7 @@ video {
 
 .text-color1 {
   --tw-text-opacity: 1;
-  color: #FFA62F;
+  color: #2095AE;
 }
 
 .text-color2 {
@@ -1288,7 +1288,7 @@ video {
 
 .text-color4 {
   --tw-text-opacity: 1;
-  color: #FFA62F;
+  color: #2095AE;
 }
 
 .text-color6 {
@@ -1316,7 +1316,7 @@ video {
 }
 
 .decoration-color1 {
-  text-decoration-color: #FFA62F;
+  text-decoration-color: #2095AE;
 }
 
 .bg-blend-multiply {
@@ -1428,7 +1428,7 @@ video {
 }
 
 .marker\:text-color1 *::marker {
-  color: rgb(174, 164, 32);
+  color: #2095AE;
 }
 
 .marker\:text-color1::marker {

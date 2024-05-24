@@ -34,7 +34,7 @@ h3 {
   
   details summary {
     cursor: pointer;
-    background-color: #FFA62F;
+    background-color: #2095AE;
     color: #01204E;
     padding: 10px;
     border-radius: 5px;
@@ -42,5 +42,5 @@ h3 {
   }
   
   details summary:hover {
-    background-color: #FFC96F;
+    background-color: #2095AE;
   }
