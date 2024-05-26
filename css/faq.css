@@ -1,46 +1,47 @@
 h3 {
-    font-family: Arial, sans-serif;
-    font-size: 24px;
-    color: #333;
-  }
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+div {
+  margin-top: 20px;
+}
+
+p {
   
-  div {
-    margin-top: 20px;
-  }
-  
-  p {
-    
-    margin: 0;
-    text-align: left;
-  }
-  
-  details {
-    margin-top: 10px;
-  }
-  
-  details[open] summary::after {
-    content: "▲";
-  }
-  
-  details summary::after {
-    content: "▼";
-    float: right;
-    margin-left: 10px;
-  }
-  
-  details p {
-    margin: 10px 0 0 20px;
-  }
-  
-  details summary {
-    cursor: pointer;
-    background-color: #2095AE;
-    color: #01204E;
-    padding: 10px;
-    border-radius: 5px;
-    display: inline-block;
-  }
-  
-  details summary:hover {
-    background-color: #2095AE;
-  }
+  margin: 0;
+  text-align: left;
+}
+
+details {
+  margin-top: 10px;
+}
+
+details[open] summary::after {
+  content: "▲";
+}
+
+details summary::after {
+  content: "▼";
+  float: right;
+  margin-left: 10px;
+}
+
+details p {
+  margin: 10px 0 0 20px;
+  font-size: medium;
+}
+
+details summary {
+  cursor: pointer;
+  background-color: #2095AE;
+  color: #01204E;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+details summary:hover {
+  background-color: #2095AE;
+}

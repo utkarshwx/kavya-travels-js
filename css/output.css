@@ -1222,6 +1222,11 @@ video {
   font-family: poppins;
 }
 
+.text-xl {
+  font-size: 0.65rem;
+  line-height: 1.55rem;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1251,8 +1256,8 @@ video {
 }
 
 .text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+  font-size: 1.05rem;
+  line-height: 1.25rem;
 }
 
 .font-bold {
