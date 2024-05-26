@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>
+    (function (C, A, L) {
+      let p = function (a, ar) {
+        a.q.push(ar);
+      };
+      let d = C.document;
+      C.Cal =
+        C.Cal ||
+        function () {
+          let cal = C.Cal;
+          let ar = arguments;
+          if (!cal.loaded) {
+            cal.ns = {};
+            cal.q = cal.q || [];
+            d.head.appendChild(d.createElement("script")).src = A;
+            cal.loaded = true;
+          }
+          if (ar[0] === L) {
+            const api = function () {
+              p(api, arguments);
+            };
+            const namespace = ar[1];
+            api.q = api.q || [];
+            typeof namespace === "string"
+              ? (cal.ns[namespace] = api) && p(api, ar)
+              : p(cal, ar);
+            return;
+          }
+          p(cal, ar);
+        };
+    })(window, "https://cal.com/embed.js", "init");
+    Cal("init");
+  </script>
+  <title>Travel - Plan Your Trip</title>
+  <link rel="stylesheet" href="/css/output.css" />
+  <link rel="stylesheet" href="/css/form.css" />
+  <link rel="stylesheet" href="/css/faq.css" />
+  <link rel="stylesheet" href="css/package.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+</head>
+
+<body class="font-primary">
+  <!-- Cal element-click embed code begins -->
+  
+  <!-- Cal element-click embed code ends -->
+  <main class="w-full">
+    <section class="w-full h-auto bg-header bg-cover bg-no-repeat bg-center bg-color2 bg-blend-multiply bg-opacity-60">
+      <section class="w-full flex flex-wrap justify-center">
+        <!-- Header for desktop -->
+        <header
+          class="w-[85%] xl:w-[73%] container hidden lg:flex justify-between h-[60px] items-center py-[45px] border-b-[1px] border-white border-opacity-40">
+          <figure class="w-[140px]">
+            <img src="/img/Kavya Logo_Simple.png" alt="Travel Company Logo" class="w-[100%]" />
+          </figure>
+          <nav class="h-[100%] md:w-[70%]">
+            <ul class="h-[100%] flex items-center gap-8 justify-end">
+              <li class="list-none">
+                <a class="decoration-none text-white hover:text-color3 transition-all duration-500"
+                  href="/index.html">Home</a>
+              </li>
+              <li class="list-none">
+                <a class="decoration-none text-white hover:text-color3 transition-all duration-500"
+                  href="/index.html#about">About</a>
+              </li>
+              <li class="list-none">
+                <a class="decoration-none text-white hover:text-color3 transition-all duration-500"
+                  href="/index.html#tour">Tours</a>
+              </li>
+              <li class="list-none">
+                <a class="decoration-none text-white hover:text-color3 transition-all duration-500"
+                  href="/index.html#destination">Destination</a>
+              </li>
+              <li class="list-none">
+                <a class="decoration-none text-white hover:text-color3 transition-all duration-500"
+                  href="#footer">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+
+        <!-- Header for mobile -->
+        <header
+          class="w-[95%] sm:w-[70%] md:w-[80%] container flex h-[60px] justify-between items-center lg:hidden py-[45px] relative border-b-[1px] border-white border-opacity-40">
+          <div class="w-1/2 h-full flex justify-end items-center">
+            <i class="bi bi-list text-3xl text-white cursor-pointer ham-menu-icon"></i>
+          </div>
+          <nav class="menu hidden h-[400px] w-full absolute bg-white left-0 top-[90px] z-30">
+            <ul class="h-full w-full flex flex-col ms-6 justify-center">
+              <li class="list-none my-3">
+                <a class="decoration-none text-color2 flex hover:text-color4 transition-all duration-600"
+                  href="/index.html">Home</a>
+              </li>
+              <li class="list-none my-3">
+                <a class="decoration-none text-color2 flex hover:text-color4 transition-all duration-600"
+                  href="/index.html#about">About</a>
+              </li>
+              <li class="list-none my-3">
+                <a class="decoration-none text-color2 flex hover:text-color4 transition-all duration-600"
+                  href="/index.html#tour">Tours</a>
+              </li>
+              <li class="list-none my-3">
+                <a class="decoration-none text-color2 flex hover:text-color4 transition-all duration-600"
+                  href="/index.html#destination">Destination</a>
+              </li>
+              <li class="list-none my-3">
+                <a class="decoration-none text-color2 flex hover:text-color4 transition-all duration-600"
+                  href="#footer">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </section>
+      <section class="w-full flex justify-center ">
+        <div class="w-[700px] md:w-[900px] container h-auto " style="gap: 10px">
+          <h1
+            class="w-full text-center text-white text-5xl md:text-5xl font-secondary uppercase tracking-widest mt-[30px] mb-[30px]">
+            PUNJAB</h1>
+        </div>
+      </section>
+
+    </section>
+
+    <section class="w-full flex justify-center bg-color5 h-auto">
+      <div class="container flex container-flex">
+        <!-- Photo and Description Section -->
+        <div class=" flex flex-col justify-between mt-[40px] mb-[40px]" style="margin-right: 30px;">
+          <div class="flex flex-col w-full" style=" border: 30px solid #fff; border-radius: 15px;">
+            <div class="" style="height: 50%">
+              <img src="/img/greece1.jpg" alt="Travel Destination" class="w-full h-full" style="border-radius: 13px;" />
+            </div>
+            <div class="description bg-white p-4" style="padding-left: 30px; padding-right: 30px; padding-top:40px;">
+              <h2 class="text-2xl"><strong> Experience Punjab: A Heritage Tour</strong></h2>
+              <button class="buttoni" data-cal-link="kavya-travel">
+                Schedule a Call
+              </button>
+              <h2 class="text-2xl mt-5"><strong>Highlights</strong></h2>
+              <p class="mt-5">
+
+                <li>Immerse yourself in the rich history and spiritual significance of Amritsar, visiting the Golden Temple and Jallianwala Bagh.              </li>
+                <li>Witness the iconic Wagah Border retreat ceremony between India and Pakistan.             </li>
+                <li>Explore the cultural gems of Jalandhar, Ludhiana, and Patiala, including museums, palaces, and sacred sites.               </li>
+                <li>Discover the beauty of Chandigarh's Rock Garden, Rose Garden, and Sukhna Lake.       </li>
+                <li>Visit Anandpur Sahib, a significant pilgrimage site for Sikhs, and marvel at the Bhakra Nangal Dam. </li>
+
+
+              </p>
+              <h3 class="text-2xl mt-5">Itinerary</h3>
+              <p class="mt-5">
+                <strong class="mt-1">Amritsar</strong><br>
+                <li>Arrive in Amritsar, visit the Golden Temple, Jallianwala Bagh, Maharaja Ranjit Singh Museum, Durgiana Temple, and attend the Wagah Border ceremony.
+                </li>
+              </p>
+              <p class="mt-2">
+                <strong>Jalandhar
+                </strong><br>
+                <li>Travel to Jalandhar, explore Pushpa Gujral Science City, Gurdwara Chhevin Padshahi, Devi Talab Mandir, and Rangla Punjab Haveli.</li>
+              </p>
+              <p class="mt-2">
+                <strong class="mt-2">Ludhiana</strong><br>
+                <li>Drive to Ludhiana, visit Gurdwara Dukh Niwaran Sahib and Nehru Rose Garden.
+                </li>
+
+              </p>
+              <p class="mt-2">
+                <strong>Patiala</strong><br>
+                <li>Journey to Patiala, explore Qila Mubarak Complex, Sheesh Mahal, and Gurdwara Dukh Nivaran Sahib. </li>
+              </p>
+              <p class="mt-2">
+                <strong>Chandigarh</strong><br>
+                <li>Travel to Chandigarh, visit the Rock Garden, Rose Garden, Sukhna Lake, and enjoy shopping in Sector 17 market. </li>
+              </p>
+              <p class="mt-2">
+                <strong>Anandpur Sahib</strong><br>
+                <li>Drive to Anandpur Sahib, visit Gurdwara Shri Kesgarh Sahib, Kesgarh Sahib, and Bhakra Nangal Dam. 
+                  Depart from Chandigarh by train or flight. 
+                  </li>
+              </p>
+
+              <h3 class="text-2xl mt-5">FAQ</h3>
+              <div class="mt-5">
+
+                <details>
+                  <p><strong>
+                      <summary class="font-secondary w-full">What is the best time to visit Punjab? </summary>
+                    </strong></p>
+                  <p class="text-2xl">The best time to visit Punjab generally falls between October and March, when the weather is pleasant and comfortable for sightseeing.
+                  </p>
+                </details>
+
+                <details>
+                  <p><strong>
+                      <summary class="font-secondary w-full">What kind of clothing should I pack?</summary>
+                    </strong></p>
+                  <p class="text-2xl">Punjab experiences hot summers and mild winters. Pack comfortable cotton clothes for summer and light woolens for winter. Modest clothing is recommended when visiting religious sites.
+                  </p>
+                </details>
+
+                <details>
+                  <p><strong>
+                      <summary class="font-secondary w-full">What is included in the tour package? </summary>
+                    </strong></p>
+                  <p class="text-2xl">The tour package typically includes comfortable hotel accommodation, transportation throughout the trip, entrance fees to attractions, and the services of a tour guide. Meals may or may not be included, depending on the specific package you choose.
+                  </p>
+                </details>
+
+                <details>
+                  <p><strong>
+                      <summary class="font-secondary w-full">Do I need a visa to visit India? </summary>
+                    </strong></p>
+                  <p class="text-2xl">Yes, most foreign nationals require a visa to visit India. Please check visa requirements with your local Indian embassy or consulate.
+
+                  </p>
+                </details>
+
+                <details>
+                  <p><strong>
+                      <summary class="font-secondary w-full">What are some things to keep in mind when visiting religious sites in Punjab? </summary>
+                    </strong></p>
+                  <p class="text-2xl">It is important to dress modestly and cover your head when entering Sikh Gurdwaras. Remove your shoes before entering any holy site.</p>
+                </details>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form Section -->
+
+      </div>
+    </section>
+
+    <section class="w-full flex justify-center bg-color7 py-8 " id="tour">
+      <div class="w-full container 2xl:px-36">
+        <div>
+          <p class="text-color4 uppercase px-5">Choose your place</p>
+          <p class="text-5xl font-secondary text-color3 px-5">Explore <span class="text-color1">More</span></p>
+          <div class="flex flex-wrap md:justify-between gap-10 px-6 xl:px-0 py-8 lg:px-3 ">
+            <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative photo transition-all duration-1000 ">
+              <div class="w-[100%] h-[100%] bottom-photo absolute bg-white flex flex-col justify-center px-5">
+                <p class="text-3xl text-color3 capitalize font-secondary">Heritage of Odisha</p>
+                <p class="text-color6">Travel non lorem ac erat susce bibendum nulla facilisi. Sedeuter nunc voluat miss
+                  conse viventa amet vestibulum.</p>
+                <div class="flex flex-wrap my-4">
+                  <div class="w-[50%] flex"><i class="bi bi-geo-alt text-color4"></i>
+                    <p class="text-color6 ms-2">Odisha</p>
+                  </div>
+                  <div class="w-[50%] flex"><i class="bi bi-person text-color4"></i></i>
+                    <p class="text-color6 ms-2">12+</p>
+                  </div>
+                  <div class="w-[50%] flex"><i class="bi bi-emoji-smile text-color4"></i></i>
+                    <p class="text-color6 ms-2">9.8 Superb</p>
+                  </div>
+                </div>
+                <a href="/forms.html" class="underline decoration-color1 text-color6 flex mb-2">Tour details</a>
+              </div>
+              <img src="/img/maldives1.jpg" alt="" class="w-[100%] h-[100%] object-cover brightness-75 absolute">
+              <p class="absolute uppercase text-white bg-color3 px-4 py-1 right-1 top-12 rotate-[-90deg] ">Odisha</p>
+              <figcaption class="absolute text-white bottom-8 right-10 fig">
+                <p class="capitalize font-secondary text-3xl text-right">Heritage of Odisha</p>
+              </figcaption>
+            </figure>
+            <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative photo transition-all duration-1000 ">
+              <div class="w-[100%] h-[100%] bottom-photo absolute bg-white flex flex-col justify-center px-5">
+                <p class="text-3xl text-color3 capitalize font-secondary">Odisha Wildlife</p>
+                <p class="text-color6">Travel non lorem ac erat susce bibendum nulla facilisi. Sedeuter nunc voluat miss
+                  conse viventa amet vestibulum.</p>
+                <div class="flex flex-wrap my-4">
+                  <div class="w-[50%] flex"><i class="bi bi-geo-alt text-color4"></i>
+                    <p class="text-color6 ms-2">Odisha</p>
+                  </div>
+                  <div class="w-[50%] flex"><i class="bi bi-person text-color4"></i></i>
+                    <p class="text-color6 ms-2">10+</p>
+                  </div>
+                  <div class="w-[50%] flex"><i class="bi bi-emoji-smile text-color4"></i></i>
+                    <p class="text-color6 ms-2"> 9.5 Superb</p>
+                  </div>
+                </div>
+                <a href="" class="underline decoration-color1 text-color6 flex mb-2">Tour details</a>
+              </div>
+              <img src="/img/2.jpg" alt="" class="w-[100%] h-[100%] object-cover brightness-75 absolute">
+              <p class="absolute uppercase text-white bg-color3 px-4 py-1 right-1 top-12 rotate-[-90deg] ">Odisha</p>
+              <figcaption class="absolute text-white bottom-8 right-10 fig">
+                <p class="capitalize font-secondary text-3xl">Odisha Wildlife</p>
+              </figcaption>
+            </figure>
+            <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative photo transition-all duration-1000">
+              <div class="w-[100%] h-[100%] bottom-photo absolute bg-white flex flex-col justify-center px-5">
+                <p class="text-3xl text-color3 capitalize font-secondary">Tribal Tour</p>
+                <p class="text-color6">Travel non lorem ac erat susce bibendum nulla facilisi. Sedeuter nunc voluat miss
+                  conse viventa amet vestibulum.</p>
+                <div class="flex flex-wrap my-4">
+                  <div class="w-[50%] flex"><i class="bi bi-geo-alt text-color4"></i>
+                    <p class="text-color6 ms-2">Odisha</p>
+                  </div>
+                  <div class="w-[50%] flex"><i class="bi bi-person text-color4"></i></i>
+                    <p class="text-color6 ms-2">6+</p>
+                  </div>
+                  <div class="w-[50%] flex"><i class="bi bi-emoji-smile text-color4"></i></i>
+                    <p class="text-color6 ms-2">9.5 Superb</p>
+                  </div>
+                </div>
+                <a href="" class="underline decoration-color1 text-color6 flex mb-2">Tour details</a>
+              </div>
+              <img src="/img/france1.jpg" alt="" class="w-[100%] h-[100%] object-cover brightness-75 absolute">
+              <p class="absolute uppercase text-white bg-color3 px-4 py-1 right-1 top-12 rotate-[-90deg] ">Odisha</p>
+              <figcaption class="absolute text-white bottom-8 right-10 fig">
+                <p class="capitalize font-secondary text-3xl">Tribal Tour</p>
+              </figcaption>
+            </figure>
+            <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative photo transition-all duration-1000 ">
+              <div class="w-[100%] h-[100%] bottom-photo absolute bg-white flex flex-col justify-center px-5">
+                <p class="text-3xl text-color3 capitalize font-secondary">Golden Triangle of Odisha</p>
+                <p class="text-color6">Travel non lorem ac erat susce bibendum nulla facilisi. Sedeuter nunc voluat miss
+                  conse viventa amet vestibulum.</p>
+                <div class="flex flex-wrap my-4">
+                  <div class="w-[50%] flex"><i class="bi bi-geo-alt text-color4"></i>
+                    <p class="text-color6 ms-2">Odisha</p>
+                  </div>
+                  <div class="w-[50%] flex"><i class="bi bi-person text-color4"></i></i>
+                    <p class="text-color6 ms-2">12+</p>
+                  </div>
+                  <div class="w-[50%] flex"><i class="bi bi-emoji-smile text-color4"></i></i>
+                    <p class="text-color6 ms-2">9.3 Superb</p>
+                  </div>
+                </div>
+                <a href="" class="underline decoration-color1 text-color6 flex mb-2">Tour details</a>
+              </div>
+              <img src="/img/greece1.jpg" alt="" class="w-[100%] h-[100%] object-cover brightness-75 absolute">
+              <p class="absolute uppercase text-white bg-color3 px-4 py-1 right-[-15px] top-12 rotate-[-90deg] ">Odisha
+              </p>
+              <figcaption class="absolute text-white bottom-8 right-10 fig">
+                <p class="capitalize font-secondary text-3xl text-right">Golden Triangle of Odisha</p>
+              </figcaption>
+            </figure>
+            <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative photo transition-all duration-1000">
+              <div class="w-[100%] h-[100%] bottom-photo absolute bg-white flex flex-col justify-center px-5">
+                <p class="text-3xl text-color3 capitalize font-secondary">Tribal Tour</p>
+                <p class="text-color6">Travel non lorem ac erat susce bibendum nulla facilisi. Sedeuter nunc voluat miss
+                  conse viventa amet vestibulum.</p>
+                <div class="flex flex-wrap my-4">
+                  <div class="w-[50%] flex"><i class="bi bi-geo-alt text-color4"></i>
+                    <p class="text-color6 ms-2">Odisha</p>
+                  </div>
+                  <div class="w-[50%] flex"><i class="bi bi-person text-color4"></i></i>
+                    <p class="text-color6 ms-2">6+</p>
+                  </div>
+                  <div class="w-[50%] flex"><i class="bi bi-emoji-smile text-color4"></i></i>
+                    <p class="text-color6 ms-2">9.5 Superb</p>
+                  </div>
+                </div>
+                <a href="" class="underline decoration-color1 text-color6 flex mb-2">Tour details</a>
+              </div>
+              <img src="/img/france1.jpg" alt="" class="w-[100%] h-[100%] object-cover brightness-75 absolute">
+              <p class="absolute uppercase text-white bg-color3 px-4 py-1 right-1 top-12 rotate-[-90deg] ">Odisha</p>
+              <figcaption class="absolute text-white bottom-8 right-10 fig">
+                <p class="capitalize font-secondary text-3xl">Tribal Tour</p>
+              </figcaption>
+            </figure>
+            <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative photo transition-all duration-1000 ">
+              <div class="w-[100%] h-[100%] bottom-photo absolute bg-white flex flex-col justify-center px-5">
+                <p class="text-3xl text-color3 capitalize font-secondary">Golden Triangle of Odisha</p>
+                <p class="text-color6">Travel non lorem ac erat susce bibendum nulla facilisi. Sedeuter nunc voluat miss
+                  conse viventa amet vestibulum.</p>
+                <div class="flex flex-wrap my-4">
+                  <div class="w-[50%] flex"><i class="bi bi-geo-alt text-color4"></i>
+                    <p class="text-color6 ms-2">Odisha</p>
+                  </div>
+                  <div class="w-[50%] flex"><i class="bi bi-person text-color4"></i></i>
+                    <p class="text-color6 ms-2">12+</p>
+                  </div>
+                  <div class="w-[50%] flex"><i class="bi bi-emoji-smile text-color4"></i></i>
+                    <p class="text-color6 ms-2">9.3 Superb</p>
+                  </div>
+                </div>
+                <a href="" class="underline decoration-color1 text-color6 flex mb-2">Tour details</a>
+              </div>
+              <img src="/img/greece1.jpg" alt="" class="w-[100%] h-[100%] object-cover brightness-75 absolute">
+              <p class="absolute uppercase text-white bg-color3 px-4 py-1 right-[-15px] top-12 rotate-[-90deg] ">Odisha
+              </p>
+              <figcaption class="absolute text-white bottom-8 right-10 fig">
+                <p class="capitalize font-secondary text-3xl text-right">Golden Triangle of Odisha</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="w-full flex justify-center h-auto bg-color3">
+      <footer class="w-full container h-auto flex flex-col 2xl:px-36" id="footer">
+        <div class="flex justify-center items-center border border-color5 my-10 flex-wrap mx-6">
+          <div class="w-full lg:w-[30%] flex items-center py-2 lg:border-r-2 lg:border-r-color5 my-5 ps-8 lg:ps-0">
+            <i class="bi bi-telephone-outbound text-4xl me-4 text-white bg-color1 p-3"></i>
+            <div class="w-full text-white">
+              <p class="font-secondary">Call us</p>
+              <p>+91-9437001267</p>
+            </div>
+          </div>
+          <div class="w-full lg:w-[35%] flex items-center py-2 lg:border-r-2 lg:border-r-color5 my-5 ps-8">
+            <i class="bi bi-envelope-paper text-4xl me-4 text-white bg-color1 p-3"></i>
+            <div class="w-full text-white">
+              <p class="font-secondary">Email us</p>
+              <p>mahdkl@gmail.com</p>
+            </div>
+          </div>
+          <div class="w-full lg:w-[30%] flex items-center py-2 my-5 ps-8">
+            <i class="bi bi-map text-4xl me-4 text-white bg-color1 p-3"></i>
+            <div class="w-full text-white">
+              <p class="font-secondary">Address</p>
+              <p>
+                12, IG Super Market, Laxmi Bazar, Dhenkanal, Odisha-759001
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-between my-10 flex-wrap">
+          <div class="w-full md:w-[30%] flex flex-col py-2 my-5 px-6">
+            <figure class="w-[80%]">
+              <img src="img/Kavya Logo_Simple.png" alt="Travel Company Logo" class="w-[140%]" />
+            </figure>
+            <p class="text-color6 my-5">
+              You can choose your favorite destination and start planning
+              your long-awaited vacation.
+            </p>
+            <ul class="flex">
+              <li class="me-5">
+                <a href="#"><i class="bi bi-instagram text-white bg-color1 p-3 rounded-[50%]"></i></a>
+              </li>
+              <li class="me-5">
+                <a href="#"><i class="bi bi-github text-white bg-color1 p-3 rounded-[50%]"></i></a>
+              </li>
+              <li class="me-5">
+                <a href="#"><i class="bi bi-linkedin text-white bg-color1 p-3 rounded-[50%]"></i></a>
+              </li>
+              <li class="me-5">
+                <a href="#"><i class="bi bi-twitter text-white bg-color1 p-3 rounded-[50%]"></i></a>
+              </li>
+              <li class="me-5">
+                <a href="#"><i class="bi bi-facebook text-white bg-color1 p-3 rounded-[50%]"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-full md:w-[30%] flex flex-col py-2 my-5 px-6">
+            <h1 class="text-white text-lg pb-2">Our Company</h1>
+            <ul>
+              <li class="text-color6 py-2">About Us</li>
+              <li class="text-color6 py-2">Contact Us</li>
+              <li class="text-color6 py-2">Our Services</li>
+              <li class="text-color6 py-2">Privacy Policy</li>
+              <li class="text-color6 py-2">Terms & Conditions</li>
+            </ul>
+          </div>
+          <div class="w-full md:w-[30%] flex flex-col py-2 my-5 px-6">
+            <h1 class="text-white text-lg pb-2">Services</h1>
+            <ul>
+              <li class="text-color6 py-2">Travel Booking</li>
+              <li class="text-color6 py-2">Hotel Booking</li>
+              <li class="text-color6 py-2">Family Travel</li>
+              <li class="text-color6 py-2">Business Travel</li>
+              <li class="text-color6 py-2">Solo Travel</li>
+            </ul>
+          </div>
+        </div>
+        <div class="flex justify-center items-center py-10 border-t border-color5">
+          <p class="text-color6">
+            © Project ambr 2024
+          </p>
+        </div>
+      </footer>
+    </section>
+    </section>
+  </main>
+</body>
+
+</html>
