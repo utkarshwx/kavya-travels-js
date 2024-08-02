@@ -50,7 +50,7 @@
   
   <!-- Cal element-click embed code ends -->
   <main class="w-full">
-    <section class="w-full h-auto bg-header bg-cover bg-no-repeat bg-center bg-color2 bg-blend-multiply bg-opacity-60">
+    <section class="w-full h-auto bg-header bg-cover bg-no-repeat bg-center bg-color2 bg-blend-multiply bg-opacity-60" style="background-image: url('/img/greece1.jpg');">
       <section class="w-full flex flex-wrap justify-center">
         <!-- Header for desktop -->
         <header
@@ -125,14 +125,19 @@
         <!-- Photo and Description Section -->
         <div class=" flex flex-col justify-between mt-[40px] mb-[40px]" style="margin-right: 30px;">
           <div class="flex flex-col w-full" style=" border: 30px solid #fff; border-radius: 15px;">
-            <div class="" style="height: 50%">
-              <img src="/img/greece1.jpg" alt="Travel Destination" class="w-full h-full" style="border-radius: 13px;" />
-            </div>
             <div class="description bg-white p-4" style="padding-left: 30px; padding-right: 30px; padding-top:40px;">
-              <h2 class="text-2xl"><strong> Package 1: Unforgettable Ladakh: Conquering Khardung La & Beyond </strong></h2>
-              <button class="buttoni" data-cal-link="kavya-travel">
-                Schedule a Call
-              </button>
+              <h1 class="text-5xl mt-5"> Package 1</h1>
+              <div style="display: flex; justify-content: space-between; align-items: center">
+                <div>
+                  <h2 class="text-2xl"><strong> Unforgettable Ladakh: Conquering Khardung La & Beyond </strong></h2>
+                </div>
+                <div>
+                  <button class="buttoni" data-cal-link="kavya-travel">
+                    Schedule a Call
+                  </button>
+                </div>             
+              
+              </div>
               
               <h2 class="text-2xl mt-5"><strong>Highlights</strong></h2>
               <p class="mt-5">
@@ -211,7 +216,7 @@
                 </li>
               </p>
 
-              <h3 class="text-2xl mt-5">FAQ</h3>
+              <h3 class="text-5xl mt-5">FAQ</h3>
               <div class="mt-5">
 
                 <details>
@@ -289,54 +294,36 @@
             </div>
           </div>
         </div>
-        <div class="flex justify-between my-10 flex-wrap">
-          <div class="w-full md:w-[30%] flex flex-col py-2 my-5 px-6">
-            <figure class="w-[80%]">
-              <img src="/img/Kavya Logo_Simple.png" alt="Travel Company Logo" class="w-[140%]" />
-            </figure>
-            <p class="text-color6 my-5">
-              You can choose your favorite destination and start planning
-              your long-awaited vacation.
-            </p>
-            <ul class="flex">
-              <li class="me-5">
-                <a href="#"><i class="bi bi-instagram text-white bg-color1 p-3 rounded-[50%]"></i></a>
-              </li>
-              <li class="me-5">
-                <a href="#"><i class="bi bi-github text-white bg-color1 p-3 rounded-[50%]"></i></a>
-              </li>
-              <li class="me-5">
-                <a href="#"><i class="bi bi-linkedin text-white bg-color1 p-3 rounded-[50%]"></i></a>
-              </li>
-              <li class="me-5">
-                <a href="#"><i class="bi bi-twitter text-white bg-color1 p-3 rounded-[50%]"></i></a>
-              </li>
-              <li class="me-5">
-                <a href="#"><i class="bi bi-facebook text-white bg-color1 p-3 rounded-[50%]"></i></a>
-              </li>
-            </ul>
+        <div class="flex  justify-between  my-10 flex-wrap  ">
+          <div class="w-full md:w-[30%] flex flex-col py-2  my-3 px-3 " >
+                  <figure class="w-[80%]">
+                          <img src="/img/Kavya Logo_Simple.png" alt="" class="w-[100%]">
+                  </figure>
+                  <p class="text-color6 my-5">You can choose your favorite destination and start planning your long-awaited vacation.</p>
+                  <ul class="flex  ">
+                          <li class="me-5"><a href=""><i class="bi bi-instagram text-white bg-color1 p-3 rounded-[50%]"></i></a></li>
+                          <li class="me-5"><a href=""><i class="bi bi-github text-white  bg-color1 p-3 rounded-[50%]"></i></a></li>
+                          <li class="me-5"><a href=""><i class="bi bi-linkedin text-white  bg-color1 p-3 rounded-[50%]"></i></a></li>
+                  </ul>
           </div>
-          <div class="w-full md:w-[30%] flex flex-col py-2 my-5 px-6">
-            <h1 class="text-white text-lg pb-2">Our Company</h1>
-            <ul>
-              <li class="text-color6 py-2">About Us</li>
-              <li class="text-color6 py-2">Contact Us</li>
-              <li class="text-color6 py-2">Our Services</li>
-              <li class="text-color6 py-2">Privacy Policy</li>
-              <li class="text-color6 py-2">Terms & Conditions</li>
-            </ul>
+          <div class="w-full md:w-[30%] flex flex-col py-2  my-5 md:ps-20 px-6 " >
+                <p class="font-secondary text-white text-xl xl:text-2xl">Quick Links</p>
+                <ul class="mt-7 px-6">
+                  <li class="my-2 list-disc marker:text-color1"><a href="#about" class="text-color6">About</a></li>
+                  <li class="list-disc marker:text-color1"><a href="#tour"  class="text-color6">Tours</a></li>
+                  <li class="my-2 list-disc marker:text-color1"><a href="#destination"  class="text-color6">Destination</a></li>
+                </ul>
           </div>
-          <div class="w-full md:w-[30%] flex flex-col py-2 my-5 px-6">
-            <h1 class="text-white text-lg pb-2">Services</h1>
-            <ul>
-              <li class="text-color6 py-2">Travel Booking</li>
-              <li class="text-color6 py-2">Hotel Booking</li>
-              <li class="text-color6 py-2">Family Travel</li>
-              <li class="text-color6 py-2">Business Travel</li>
-              <li class="text-color6 py-2">Solo Travel</li>
-            </ul>
+          <div class="w-full md:w-[28%] flex flex-col  py-2 my-5 px-6 md:px-0 " >
+                <p class="font-secondary text-2xl text-white ">Browse tours</p>
+                <ul class="mt-7 px-6">
+                  <li class="my-2 list-disc marker:text-color1"><a href="/packages/dl1.html" class="text-color6">Delhi</a></li>
+                  <li class="list-disc marker:text-color1"><a href="/packages/hp.html"  class="text-color6">Himachal Pradesh</a></li>
+                  <li class="my-2 list-disc marker:text-color1"><a href="/packages/uk.html"  class="text-color6">Uttarakhand</a></li>
+                  <li class="my-2 list-disc marker:text-color1"><a href="/packages/rj.html"  class="text-color6">Rajasthan</a></li>
+                </ul>
           </div>
-        </div>
+  </div>
         <div class="flex justify-center items-center py-10 border-t border-color5">
           <p class="text-color6">
             © Project ambr 2024

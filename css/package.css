@@ -154,9 +154,18 @@ input {
 	margin-top: 5px;
 	background-color: #2095AE;
 	padding: 5px;
-	padding-left: 4px;
-	padding-right: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
 	border-radius: 5px;
 	color: white;
 	text-decoration: none;
+}
+
+.buttoni:hover {
+	background-color: #155361;
+	color: white;
+	transition: 0.5s;
+	/* transition-duration: 1s; */
+	transition-timing-function: ease;
+
 }
